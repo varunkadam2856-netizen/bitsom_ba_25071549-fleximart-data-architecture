@@ -1,0 +1,35 @@
+DATA QUALITY REPORT
+===================
+
+Customers records: 26
+Products records : 20
+Sales records    : 41
+
+Missing values check:
+Customers missing values:
+customer_id          0
+first_name           0
+last_name            0
+email                5
+phone                0
+city                 0
+registration_date    0
+dtype: int64
+
+Products missing values:
+product_id        0
+product_name      0
+category          0
+price             3
+stock_quantity    1
+dtype: int64
+
+Sales missing values:
+transaction_id      0
+customer_id         3
+product_id          2
+quantity            0
+unit_price          0
+transaction_date    0
+status              0
+dtype: int64
